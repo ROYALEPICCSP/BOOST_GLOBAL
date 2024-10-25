@@ -85,6 +85,20 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight:bolder;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.lobster-regular{
+  font-size: large;
+}
+
+
+
+
 /* Pulsating Play Button
 ------------------------------*/
 .pulsating-play-btn {
@@ -286,7 +300,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 56px;
   margin-right: 8px;
 }
 
@@ -879,7 +893,7 @@ section,
 .hero {
   width: 100%;
   position: relative;
-  padding: 140px 0 0 0;
+  padding: 230px 0 0 0;
 }
 
 .hero .container {
@@ -890,7 +904,7 @@ section,
 .hero h2 {
   font-size: 48px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .hero h2 .accent {
@@ -1054,6 +1068,12 @@ section,
   position: absolute;
   left: calc(50% - 47px);
   top: calc(50% - 47px);
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*--------------------------------------------------------------
