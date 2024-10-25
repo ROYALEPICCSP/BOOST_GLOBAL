@@ -96,95 +96,6 @@ h6 {
   font-size: large;
 }
 
-@media (max-width: 768px) {
-  .container img {
-    width: 100%; /* Make the image responsive */
-    max-width: 250px; /* Optional: control maximum size */
-    margin: 0 auto; /* Center the image */
-  }
-
-  .row {
-    flex-direction: column;
-    text-align: center; /* Center the text and image for mobile */
-  }
-}
-/* Logo adjustment for mobile */
-@media (max-width: 768px) {
-  .logo img {
-    max-width: 150px; /* Control logo size */
-  }
-
-  .branding .container {
-    flex-direction: column;
-    text-align: center; /* Center logo and nav on mobile */
-  }
-
-  .navmenu ul {
-    flex-direction: column; /* Stack nav links vertically on mobile */
-    text-align: center;
-  }
-
-  .contact-info {
-    flex-direction: column; /* Stack contact info vertically on mobile */
-    text-align: center;
-  }
-
-  .social-links {
-    margin-top: 10px; /* Adjust social link spacing */
-  }
-}
-
-/* Spacing for desktop */
-@media (min-width: 769px) {
-  .contact-info {
-    justify-content: flex-start;
-  }
-
-  .navmenu ul {
-    justify-content: flex-end;
-  }
-}
-
-
-/* Style for the hero heading */
-.hero-heading {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-/* Alignment for text and buttons in hero section */
-@media (max-width: 768px) {
-  .text-center {
-    text-align: center !important;
-  }
-
-  .btn-get-started, .btn-watch-video {
-    margin: 10px 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .hero-heading {
-    text-align: left;
-  }
-
-  .text-lg-start {
-    text-align: left;
-  }
-
-  .justify-content-lg-start {
-    justify-content: flex-start;
-  }
-}
-
-/* Add some padding for larger screens */
-.hero .container {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
 
 
 
@@ -982,7 +893,7 @@ section,
 .hero {
   width: 100%;
   position: relative;
-  padding: 230px 0 0 0;
+  padding: 300px 0 0 0;
 }
 
 .hero .container {
